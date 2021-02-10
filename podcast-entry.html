@@ -1,50 +1,81 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Downlink Podcast | Exploring Space from Here</title>
-    <link href='https://fonts.googleapis.com/css?family=Raleway|Rubik+Mono+One|Space+Mono:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="stylesheets/app.css" />
-    <link href='bower_components/foundation-player/dist/foundation-player.css' rel='stylesheet' type='text/css'>
-
-    <script src="bower_components/modernizr/modernizr.js"></script>
-  </head>
-  <body>
-    <div class="row header">
-      <div class="large-8 columns">
-        <h1><a href="/">Downlink</a></h1>
-        <p class="tagline">Exploring Space from Here</p>
-      </div>
-      <div class="large-4 columns">
-        <ul class="main-nav">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Subscribe</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-    </div>    
-    <div class="row content-area">
-      <div class="large-12 columns">
-        <div class="entry podcast">
-          <h2><a href="">Podcast Episode 74</a></h2>
-          <p class="post-date">June 22, 2016</p>
-          <div class="player">
-            <iframe frameborder='0' height='36px' scrolling='no' seamless src='https://simplecast.com/e/35190?style=light' width='100%'></iframe>
-          </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-      </div>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Downlink Podcast | Exploring Space from Here</title>
+  <link rel="stylesheet" href="/build/css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Rubik+Mono+One|Space+Mono:400,700&display=swap"
+        rel="stylesheet"/>
+</head>
+<body class="bg-black font-sans leading-normal tracking-normal">
+<nav id="header" class="w-full z-10 top-0 bg-black">
+  <div class="w-full md:max-w-4xl mx-auto flex flex-wrap items-center justify-between mt-0 py-5">
+    <div class="pl-4">
+      <a class="font-logo text-red-600 text-5xl" href="/">Downlink</a>
+      <p class="font-tagline text-gray-600 uppercase">Exploring space from
+        here</p>
     </div>
-
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
-    <script type='text/javascript' src='bower_components/foundation-player/dist/foundation-player.min.js'></script>
-    <script>
-      $(document).ready(function($) {
-        $('.foundation-player.no-1').foundationPlayer();
-      });
-    </script>
-  </body>
+    <!-- mobile hamburgers on the menu -->
+    <div class="block lg:hidden pr-4">
+      <button id="nav-toggle"
+              class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-900 hover:border-green-500 appearance-none focus:outline-none">
+        <svg class="fill-current h-3 w-3" viewBox="0 0 20 20"
+             xmlns="http://www.w3.org/2000/svg">
+          <title>Menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+        </svg>
+      </button>
+    </div>
+    <!-- end hamburger -->
+    <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-gray-100 md:bg-transparent z-20"
+         id="nav-content">
+      <ul class="list-reset lg:flex justify-end flex-1 items-center font-tagline text-red-600">
+        <li class="mr-3">
+          <a class="inline-block  no-underline hover:text-gray-900 hover:text-underline py-2 px-4"
+             href="#">About</a>
+        </li>
+        <li class="mr-3">
+          <a class="inline-block no-underline hover:text-gray-900 hover:text-underline py-2 px-4"
+             href="#">Subscribe</a>
+        </li>
+        <li class="mr-3">
+          <a class="inline-block no-underline hover:text-gray-900 hover:text-underline py-2 px-4"
+             href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container w-full md:max-w-4xl mx-auto">
+  <div class="w-full px-4 md:px-6 text-xl text-gray-800 leading-normal">
+    <div class="font-copy text-white podcast">
+      <div class="my-10 entry-header">
+        <h2 class="font-normal font-title break-normal pt-6 pb-2 text-4xl md:text-4xl">
+          <a class="text-gray-100" href="podcast-entry.html">Podcast
+            Episode 74</a></h2>
+        <p class="text-lg font-normal text-gray-100">June 22, 2020</p>
+      </div>
+      <div id="audio-player" class="pb-10">
+        <audio controls class="w-full bg-black-500">
+          <source src="" type="audio/ogg">
+          <source src="" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+        enim ad minim veniam, quis nostrud exercitation ullamco laboris
+        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+        in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est
+        laborum.</p>
+    </div>
+  </div>
+</div>
+<footer class="p-4 text-center border-t-2 border-gray-900 py-5 mt-10 text-gray-500">
+  <p>Copyright 2021 Downlink Online Enterprises</p>
+</footer>
+</body>
 </html>

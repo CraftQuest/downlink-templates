@@ -6,4 +6,11 @@
     a {
         @apply text-red-900;
     }
+    a:hover {
+        @apply text-gray-500;
+    }
+    blockquote {
+        @apply ml-10 my-10 text-gray-600 italic border-l-4 border-gray-900 pl-10;
+    }
+
 }
