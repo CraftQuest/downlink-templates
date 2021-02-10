@@ -3558,8 +3558,8 @@ blockquote {
   background-image: linear-gradient(to top left, var(--gradient-color-stops));
 }
 
-.bg-stars-bg {
-  background-image: url('/images/background-stars.svg');
+.bg-stars {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(/images/background-stars.gif);
 }
 
 .from-transparent {
@@ -24630,8 +24630,8 @@ blockquote {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
   }
 
-  .sm\:bg-stars-bg {
-    background-image: url('/images/background-stars.svg');
+  .sm\:bg-stars {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(/images/background-stars.gif);
   }
 
   .sm\:from-transparent {
@@ -45637,8 +45637,8 @@ blockquote {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
   }
 
-  .md\:bg-stars-bg {
-    background-image: url('/images/background-stars.svg');
+  .md\:bg-stars {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(/images/background-stars.gif);
   }
 
   .md\:from-transparent {
@@ -66644,8 +66644,8 @@ blockquote {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
   }
 
-  .lg\:bg-stars-bg {
-    background-image: url('/images/background-stars.svg');
+  .lg\:bg-stars {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(/images/background-stars.gif);
   }
 
   .lg\:from-transparent {
@@ -87651,8 +87651,8 @@ blockquote {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
   }
 
-  .xl\:bg-stars-bg {
-    background-image: url('/images/background-stars.svg');
+  .xl\:bg-stars {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(/images/background-stars.gif);
   }
 
   .xl\:from-transparent {

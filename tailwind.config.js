@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: theme => ({
-        'stars-bg': "url('/images/background-stars.svg')"
+        'stars': "linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(/images/background-stars.gif)"
       }),
       fontFamily: {
         logo: ['"Rubik Mono One"', "sans-serif"],
