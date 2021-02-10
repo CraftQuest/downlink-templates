@@ -4,7 +4,7 @@
 
 @layer base {
     a {
-        @apply text-red-900;
+        @apply text-red-600;
     }
     a:hover {
         @apply text-gray-500;

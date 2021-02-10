@@ -588,8 +588,8 @@ video {
 
 a {
   --text-opacity: 1;
-  color: #742a2a;
-  color: rgba(116, 42, 42, var(--text-opacity));
+  color: #e53e3e;
+  color: rgba(229, 62, 62, var(--text-opacity));
 }
 
 a:hover {
@@ -3558,7 +3558,7 @@ blockquote {
   background-image: linear-gradient(to top left, var(--gradient-color-stops));
 }
 
-.bg-body-bg {
+.bg-stars-bg {
   background-image: url('/images/background-stars.svg');
 }
 
@@ -24630,7 +24630,7 @@ blockquote {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
   }
 
-  .sm\:bg-body-bg {
+  .sm\:bg-stars-bg {
     background-image: url('/images/background-stars.svg');
   }
 
@@ -45637,7 +45637,7 @@ blockquote {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
   }
 
-  .md\:bg-body-bg {
+  .md\:bg-stars-bg {
     background-image: url('/images/background-stars.svg');
   }
 
@@ -66644,7 +66644,7 @@ blockquote {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
   }
 
-  .lg\:bg-body-bg {
+  .lg\:bg-stars-bg {
     background-image: url('/images/background-stars.svg');
   }
 
@@ -87651,7 +87651,7 @@ blockquote {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
   }
 
-  .xl\:bg-body-bg {
+  .xl\:bg-stars-bg {
     background-image: url('/images/background-stars.svg');
   }
 
